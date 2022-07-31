@@ -12,6 +12,7 @@ const WINNING_COMBINATION = [
 ];
 
 class Game {
+  // selecting html element
   init() {
     this.allCellEl = document.querySelectorAll("[data-cell]");
     this.board = document.querySelector(".board");
